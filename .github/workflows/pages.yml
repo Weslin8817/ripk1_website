@@ -30,7 +30,7 @@ jobs:
       - name: Build static site
         run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: /ripk1_website
+          NEXT_PUBLIC_BASE_PATH: /ripk1
           NEXT_TELEMETRY_DISABLED: 1
       - name: Configure Pages
         uses: actions/configure-pages@v5

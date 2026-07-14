@@ -27,7 +27,7 @@ npm run check      # 依次执行上述三项质量检查
 
 推送到 `main` 后，[GitHub Actions](.github/workflows/pages.yml) 会设置仓库子路径、构建静态站点并部署到：
 
-<https://weslin8817.github.io/ripk1_website/>
+<https://weslin8817.github.io/ripk1/>
 
 ## 项目结构
 

@@ -3,7 +3,7 @@
 ## 当前保留结构
 
 ```text
-ripk1_website/
+ripk1/
 ├─ app/
 │  ├─ layout.tsx        # 根布局、站点元数据与全局资源
 │  ├─ page.tsx          # 当前单页内容与页面区块
@@ -55,6 +55,6 @@ public/
 ## 约束与边界
 
 - 保持 `output: "export"`，页面逻辑必须兼容静态导出。
-- GitHub Pages 部署需要 `NEXT_PUBLIC_BASE_PATH=/ripk1_website`。
+- GitHub Pages 部署需要 `NEXT_PUBLIC_BASE_PATH=/ripk1`。
 - 新增公共资源应通过统一资源路径工具引用，避免仓库子路径下出现 404。
 - `node_modules/`、`.next/`、`out/` 等均为可重建目录，不应提交到 Git。
